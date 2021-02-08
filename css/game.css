@@ -1,7 +1,10 @@
 .background    { background: rgb(103, 201, 103);
                  table-layout: fixed;
                  border-spacing: 0;  
-                 background-repeat: repeat-x; }
+                 background-repeat: repeat-x;
+
+                 }
+*{background: rgb(10, 125, 202);}
 .background td { padding: 0;          }
 .lava          { background: rgb(245, 0, 0); }
 .wall          { background: orange;   }
