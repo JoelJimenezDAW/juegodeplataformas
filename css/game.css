@@ -1,6 +1,7 @@
 .background    { background: url(fondocueva.jpg);
                  table-layout: fixed;
-                 border-spacing: 0;   }
+                 border-spacing: 0;  
+                 background-repeat: no-repeat; }
 .background td { padding: 0;          }
 .lava          { background: rgb(245, 0, 0); }
 .wall          { background: orange;   }
