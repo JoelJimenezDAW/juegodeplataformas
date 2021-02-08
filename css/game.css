@@ -8,12 +8,12 @@
   
 }
 .background td { padding: 0;          }
-.lava          { background: rgb(245, 0, 0); }
+.lava          { background: rgba(97, 5, 97, 0.911); }
 .wall          { background: orange;   }
 
 .actor  { position: absolute;  }
 .coin   { background: rgb(241, 229, 89); }
-.player { background: blue; }
+.player { background: rgb(0, 0, 0); }
 
 .game {
   overflow: hidden;
