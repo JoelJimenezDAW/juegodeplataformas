@@ -1,5 +1,5 @@
 
-.background    { background: rgb(103, 201, 103);
+.background    { background: rgb(10, 125, 202);
                  table-layout: fixed;
                  border-spacing: 0;  
                  background-repeat: repeat-x;
@@ -24,7 +24,7 @@
 }
 
 .lost .player {
-  background: rgb(160, 64, 64);
+  background: rgb(199, 7, 7);
 }
 .won .player {
   box-shadow: -4px -7px 8px white, 4px -7px 8px white;
