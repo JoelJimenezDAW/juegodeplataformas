@@ -15,7 +15,7 @@
 
 .actor  { position: absolute;  }
 .coin   { background: rgb(241, 229, 89); }
-.player { background: rgb(0, 0, 0); }
+.player { background: rgb(0, 0, 0);}
 
 .game {
   overflow: hidden;
@@ -29,6 +29,42 @@
 }
 .won .player {
   box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
+
+.botonvidas{
+  background-color: #4CAF50; 
+  border: solid black;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.botonpuntuacion{
+  background-color: #4CAF50; 
+  border: solid black;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.botonpausa{
+  background-color: red; 
+  border: solid black;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .pre-loader {
@@ -82,8 +118,9 @@
 }
 
 .cerrar{
-  transform: translate(-100%);
   transition: all 0.5s;
+  opacity: 0;
+  visibility: hidden;
 }
 
 
