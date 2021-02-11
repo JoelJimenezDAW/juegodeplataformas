@@ -3,7 +3,9 @@
 <script src="code/levels.js"></script>
 
 <link rel="stylesheet" href="css/game.css">
-
+<head>
+<title class="titulo">MINIJUEGO DE PLATAFORMA</title>
+</head>
 <body>
 <div class="contenedor_carga" id= "contenedor_carga">
     <div class="carga"></div>
@@ -12,11 +14,10 @@
 
 </script>
   <script>
-
     runGame(GAME_LEVELS, DOMDisplay);
   </script>
 
 <button id="pause" class="botonpausa"onclick="this.blur();">Pausa</button> 
-<button id="livesli" class="botonvidas">Vidas</button>
-<button id="scoreli" class="botonpuntuacion">Puntuacion</button>
+<button id="livesli" class="botonvidas">Vidas: 1</button>
+<button id="scoreli" class="botonpuntuacion">Puntuacion: 0</button>
 </body>
